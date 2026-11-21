@@ -1,0 +1,38 @@
+<HTML>
+<head>
+    <title>
+        Registration page
+    </title>
+</head>
+<body align="centre">
+<h1>Registration page </h1>
+    <form action="registration successful.html"method="get/post" >
+        Name: <input type="text" name="g1" placeholder="ENTER YOUR NAME" autofocus><br><br>
+          Email: <input type="email" name="g2" placeholder="abc@klh.edu.in" required><br><br>
+            Mobile: <input type="number" name="g3" placeholder="Mobile number" pattern="[0-9] {10}" required >
+            course: <select name="g4" required>
+                <option value="1">SELECT</option>
+                <option>B.Tech</option>
+                <option>M.Tech</option>
+                <option>P.hD</option>
+            </select><br><br>
+            Gender: <input type="radio" name="g5" required>Male
+            <input type="radio" name="g5">Female<br><br>
+            Address: <textarea name="g6" required rows="3" cols="30"
+            placeholder="Enter your address">
+        </textarea><br><br>
+        Skills known: <input type="checkbox" name="g7">HTML
+            <input type="checkbox" name="g7">CSS
+            <input type="checkbox" name="g7">javascript
+ <input type="checkbox" name="g7">PHP<BR><BR>
+    Inter percentage: <input type="number" name="g8" min="0" max="100" required><br><br>
+    Upload photo: <inputtype="file" name="g9" accept=".jpg,.jpeg,.png"><br><br>
+    Password: <input type="password" name="g10" minlength="6" required><br><br>
+    <input type="checkbox" name="g11" required> I agree to the terms.<br><br>
+    <button type="submit">Register </button>
+    <button type="reset"> Clear All</button>
+
+
+    </form>
+</body>
+</HTML>

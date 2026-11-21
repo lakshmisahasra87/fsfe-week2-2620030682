@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Accessibility styling Demo</title>
+    <style>
+        body{
+            font-family: Arial;
+        }
+        /*Button Styling*/
+        button{
+            padding:10px 20px;
+            background:darkBlue;
+            color:white;
+            border:none;
+        }
+        /* Focus outline for keyboard users */
+        button:focus{
+outline: 10px solid
+yellow;
+outline-offset:4px;
+        }
+        /*  High contrast text box */
+        .box{
+            margin-top: 20px;
+            padding: 15px ;
+            background: #233;
+            color: #fff;
+        }
+        </style>
+</head><body>
+    <button> press tab to Focus me</button>
+    <div class="box">
+        High contrast text for better accessibility 
+    </div></body></html>

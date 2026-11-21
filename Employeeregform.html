@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title> 
+        Employee Registration Form
+    </title>
+    </head>
+    <body align="centre">
+        <h1>Employee Registration Form</h1>
+<form
+ Employee Name: <input type="text" name="g1" placeholder="Enter your name" autofocus><br><br>
+ Password: <input type="password" name="g2" minlength="8" required><br><br>
+ Email: <input type="email" name="g3" required><br><br>
+ Mobile Number:<input type="number" name="g4" required><br><br>
+ Age: <input type="number" name="g5" minlength="2"><br><br>
+ Date of birth: <input type="date of birth" name="g6" placeholder="dd-mm-yyyy"><br><br>
+ Preferred interview time: <input type="time" name="g7" placeholder="--:--"><br><br>
+ Gender: <input type="radio" name="g8" required>Male
+ <input type="radio" name="g8" required>Female<br><br>
+ Skills: <input type="checkbox" name="g9">HTML
+ <input type="checkbox" name="g9">CSS
+ <input type="checkbox" name="g9">javascript
+ Select Department: <select name="g10" required>
+<option value="1">select</option>
+<option>CSE</option>
+<option>ECE</option>
+<option>EEE</option>
+<option>CSIT</option>
+</select><br><br>
+Upload Resume:<input type="file" name="g11" accept=".jpg,.jpeg,.png"><br><br>
+Address: <textarea="address" name="g12" required rows="3" cols="30" placeholder="Enter your address"></textarea><br><br>
+Work Experience:<input type="range" min="0" max="20" value="0" 
+oninput="document.getElementById('result').innerHTML=thisvalue + 'years'"><br><br>
+<label>LinkedIn Profile:</label>
+<input type="url" placeholder="Enter LinkedIn URL"><br><br>
+<button type="submit">Register</button>
+<button type="Reset">clear all</button>
+<body style="background-color: yellow;"></body>
+</form>
+</body>
+</html>
+
+
+
+
